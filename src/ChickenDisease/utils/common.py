@@ -35,6 +35,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     except Exception as e:
         raise e
     
+    
 
 
 @ensure_annotations
